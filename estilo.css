@@ -1,0 +1,59 @@
+body {
+    
+    background: #000000f2;
+    font: Normal 15pt Roboto;
+}
+#fundo{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    display: block;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
+.campos{
+    height: 88px;
+    text-align: end;
+}
+.btn-funcao{
+background-color: #141414;
+border: 1px solid #232323;
+line-height: 2.5;
+font-size: 18px;
+}
+.btn-num{
+    background-color: #060606;
+    border: 1px solid #232323;
+    line-height: 2.5;
+    font-size: 18px;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+    
+}
+section{
+    background: #232323;
+    /* width: 400px; */
+
+    height: 430px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.288);
+}
+footer{
+    color: #ffffff;
+    font: normal 10pt Roboto;
+    text-align: center;   
+}
+.form-control{
+    background-color:#232323;
+    color: #ffffff;
+    font-size: 29px;
+}
